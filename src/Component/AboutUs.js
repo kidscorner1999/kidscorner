@@ -2,7 +2,7 @@ import { Box, Stack, Typography } from "@mui/material";
 import React from "react";
 import NavBar from "./Navbar";
 import Footer from "./Footer";
-import kc03 from "../assets/galleryImage/kc01.png";
+import kc03 from "../assets/galleryImage/kc13.png";
 
 export default function AboutUs() {
   return (
@@ -19,12 +19,17 @@ export default function AboutUs() {
           Know about Kids Corner School
         </Typography>
         <Stack direction={"row"} spacing={2}>
-          <Stack direction={"column"} spacing={2}  sx={{
+          <Stack
+            direction={"column"}
+            spacing={2}
+            sx={{
               display: { xs: "none", md: "flex" },
-              width:{
-                xs:"100%", md:"60%"
-              }
-            }}>
+              width: {
+                xs: "100%",
+                md: "60%",
+              },
+            }}
+          >
             <Typography
               variant="body1"
               fontSize={18}
@@ -64,9 +69,10 @@ export default function AboutUs() {
             width={"40%"}
             height={"300px"}
             sx={{
-              width:{
-                xs:"100%", md:"40%"
-              }
+              width: {
+                xs: "100%",
+                md: "40%",
+              },
             }}
           />
         </Stack>
@@ -84,14 +90,14 @@ export default function AboutUs() {
           they work closely with parents to ensure that every child receives the
           support they need to succeed.
         </Typography>
-        <br />
+        {/* <br />
         <Typography variant="body1" fontSize={18} align="justify">
           In addition to our academic program, Kids Corner offers a range of
           extracurricular activities, including sports, arts and crafts, and
           music lessons. These activities are designed to help students explore
           their interests and develop their talents, while also promoting
           teamwork, communication, and other important life skills.
-        </Typography>
+        </Typography> */}
         <br />
         <Typography variant="body1" fontSize={18} align="justify">
           At Kids Corner, we believe that education is a collaborative effort
@@ -105,6 +111,41 @@ export default function AboutUs() {
           Overall, Kids Corner is a wonderful place for young children to learn,
           grow, and develop into confident and capable individuals.
         </Typography>
+        <br />
+        <br />
+        <Stack direction={"row"} justifyContent={"space-between"} spacing={6}>
+          <Stack direction={"column"} spacing={2}>
+            <Typography
+              fontSize={18}
+              variant="h6"
+              fontWeight={"bold"}
+              color={"#0C134F"}
+            >
+              Message From Director
+            </Typography>
+            <Typography variant="body1" fontSize={18} align="justify">
+              As the director of school my aim is to provide quality education
+              as well as children to know about their Indian culture. Kids
+              should have good habits, manners and etiquettes. Since their early
+              stage of life.
+            </Typography>
+          </Stack>
+          <Stack direction={"column"} spacing={2}>
+            <Typography
+              fontSize={18}
+              variant="h6"
+              fontWeight={"bold"}
+              color={"#0C134F"}
+            >
+              Message From Principal
+            </Typography>
+            <Typography variant="body1" fontSize={18} align="justify">
+              As the principle my focus is on that kids enjoy the process of
+              learning by fun and invlve themselves more and more in activities.
+              They feel free from pressure of curricular.
+            </Typography>
+          </Stack>
+        </Stack>
       </Box>
       <Footer />
     </Box>
