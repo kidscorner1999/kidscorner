@@ -13,11 +13,14 @@ import kcQR from "../assets/kc-qr.png";
 
 export default function Admission() {
   const listOfDocument = [
-    "Child's passport size photograph",
+    "2 Student's passport size photograph",
+    "2 Parents' passport size photograph",
     "Last academic result (If applicable)",
-    "Child's Identity proof (Birth Certificate or Aadhar Card)",
-    "Residential address proof",
-    "Mother and father's or guardian's Aadhar Card",
+    "Child's  Aadhar Card photo copy",
+    "Child's Birth Certificate photo copy",
+    "Samagra ID",
+    "Family ID",
+    "Account Details",
   ];
   return (
     <Box>
@@ -54,7 +57,7 @@ export default function Admission() {
               {listOfDocument.map((item, index) => (
                 <ListItem>
                   <Typography fontWeight={"bold"}>
-                    {`${index + 1}. ${item}`}
+                    {`${item}`}
                   </Typography>
                 </ListItem>
               ))}
