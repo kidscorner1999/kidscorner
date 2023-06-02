@@ -12,7 +12,7 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
-import iconPeacock from "../assets/icon-peacock.png";
+import iconKC from "../assets/kc-logo.png";
 
 import { Link } from "react-router-dom";
 
@@ -71,7 +71,11 @@ function NavBar(props) {
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <img src={iconPeacock} alt={"icon"} />
+          <img src={iconKC} alt={"icon"}  style={{
+            height:"60px",
+            width:"60px",
+            marginRight:"10px"
+          }}/>
           <Typography
             variant="h6"
             noWrap
