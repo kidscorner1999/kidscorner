@@ -44,8 +44,8 @@ export default function Admission() {
               alt={"kc-qr"}
               loading="lazy"
               style={{
-                width: "400px",
-                height: "400px",
+                width: "350px",
+                height: "350px",
               }}
             />
           </Stack>
