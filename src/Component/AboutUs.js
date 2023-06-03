@@ -1,4 +1,4 @@
-import { Box, Divider, Stack, Typography } from "@mui/material";
+import { Box, Divider, List, ListItem, Stack, Typography } from "@mui/material";
 import React from "react";
 import NavBar from "./Navbar";
 import Footer from "./Footer";
@@ -6,6 +6,17 @@ import kc03 from "../assets/galleryImage/kc13.png";
 import kcStaff from "../assets/kc-staff.jpeg";
 
 export default function AboutUs() {
+  const listOfFacilities = [
+    "Hygienic Atmosphere",
+    "Experienced Teacher",
+    "Learn For Fun",
+    "CCTV Campus",
+    "Sports Ground",
+    "R.O. Water",
+    "Transport Facilities Available",
+    "Better Classroom",
+    "Childern Swimming Pool",
+  ];
   return (
     <Box>
       <NavBar position={"static"} />
@@ -19,10 +30,13 @@ export default function AboutUs() {
         >
           Know about Kids Corner School
         </Typography>
-        <Stack direction={"row"} spacing={{
-           xs: 0,
-           md: 2,
-        }}>
+        <Stack
+          direction={"row"}
+          spacing={{
+            xs: 0,
+            md: 2,
+          }}
+        >
           <Stack
             direction={"column"}
             spacing={2}
@@ -117,24 +131,36 @@ export default function AboutUs() {
         </Typography>
         <br />
         <br />
+        <Stack spacing={1}>
+          <Typography color={"#0C134F"} fontWeight={"bold"} fontSize={20}>
+            Our Campus Facilities
+          </Typography>
+          <List dense>
+            {listOfFacilities.map((item, index) => (
+              <ListItem>
+                <Typography fontWeight={"bold"}>{`${item}`}</Typography>
+              </ListItem>
+            ))}
+          </List>
+        </Stack>
         <Box
-            component="img"
-            src={kcStaff}
-            alt={"Kids Corner"}
-            width={"40%"}
-            height={"550px"}
-            sx={{
-              mb:4,
-              width: {
-                xs: "100%",
-                md: "100%",
-              },
-              height: {
-                xs: "100%",
-                md: "100%",
-              },
-            }}
-          />
+          component="img"
+          src={kcStaff}
+          alt={"Kids Corner"}
+          width={"40%"}
+          height={"550px"}
+          sx={{
+            mb: 4,
+            width: {
+              xs: "100%",
+              md: "100%",
+            },
+            height: {
+              xs: "100%",
+              md: "100%",
+            },
+          }}
+        />
         <Stack direction={"row"} justifyContent={"space-between"} spacing={6}>
           <Stack direction={"column"} spacing={2}>
             <Typography
@@ -143,9 +169,9 @@ export default function AboutUs() {
               fontWeight={"bold"}
               color={"white"}
               sx={{
-                backgroundColor:"#0C134F",
-                borderRadius:"5px",
-                padding:1
+                backgroundColor: "#0C134F",
+                borderRadius: "5px",
+                padding: 1,
               }}
             >
               Message From Director
@@ -157,7 +183,7 @@ export default function AboutUs() {
               stage of life.
             </Typography>
           </Stack>
-          <Divider orientation="vertical" flexItem/>
+          <Divider orientation="vertical" flexItem />
           <Stack direction={"column"} spacing={2}>
             <Typography
               fontSize={18}
@@ -165,9 +191,9 @@ export default function AboutUs() {
               fontWeight={"bold"}
               color={"white"}
               sx={{
-                backgroundColor:"#0C134F",
-                borderRadius:"5px",
-                padding:1
+                backgroundColor: "#0C134F",
+                borderRadius: "5px",
+                padding: 1,
               }}
             >
               Message From Principal

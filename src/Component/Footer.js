@@ -1,7 +1,10 @@
 import {
   EmailRounded,
+  Facebook,
   Instagram,
   PhoneInTalkRounded,
+  Twitter,
+  YouTube,
 } from "@mui/icons-material";
 import { Box, Divider, Grid, Stack, Typography } from "@mui/material";
 import React from "react";
@@ -97,6 +100,30 @@ export default function Footer() {
           </Typography>
           <Link target="_blank" to="https://www.instagram.com/kidscorner450/?igshid=ZDc4ODBmNjlmNQ%3D%3D">
             <Instagram
+              sx={{
+                color: "white",
+                fontWeight: "bold",
+              }}
+            />
+          </Link>
+          <Link target="_blank" to="https://www.youtube.com/@Kidscornerplayway">
+            <YouTube
+              sx={{
+                color: "white",
+                fontWeight: "bold",
+              }}
+            />
+          </Link>
+          <Link target="_blank" to="https://www.facebook.com/profile.php?id=100092976964170">
+            <Facebook
+              sx={{
+                color: "white",
+                fontWeight: "bold",
+              }}
+            />
+          </Link>
+          <Link target="_blank" to="https://twitter.com/kidscorner02">
+            <Twitter
               sx={{
                 color: "white",
                 fontWeight: "bold",
