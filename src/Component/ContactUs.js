@@ -19,7 +19,7 @@ export default function ContactUs() {
         <Stack spacing={4} justifyContent={"space-around"}>
           <Stack alignItems={"center"} spacing={1}>
             <Typography color={"#E57C23"} fontWeight={"bold"} fontSize={20}>
-              Scan QR code below
+              Scan QR code below for contact form
             </Typography>
             <img
               src={kcQR}
@@ -27,8 +27,8 @@ export default function ContactUs() {
               alt={"kc-qr"}
               loading="lazy"
               style={{
-                width: "400px",
-                height: "400px",
+                width: "350px",
+                height: "350px",
               }}
             />
           </Stack>
@@ -38,8 +38,8 @@ export default function ContactUs() {
             </Typography>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.6725920217204!2d75.46707137519897!3d22.214545579748265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39626ee588fd0f47%3A0x883ab1e6d18c0b26!2sKids%20Corner%20playway%20School!5e0!3m2!1sen!2sin!4v1685105425367!5m2!1sen!2sin"
-              width="550"
-              height="400"
+              width="450"
+              height="300"
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
