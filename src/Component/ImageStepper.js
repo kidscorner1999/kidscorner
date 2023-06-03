@@ -64,7 +64,7 @@ export default function ImageStepper() {
     setActiveStep(step);
   };
   return (
-    <Box bgcolor={"#ffffff"} mt={-9} sx={{
+    <Box bgcolor={"#ffffff"} sx={{
       height:"70%",
       width:"100%"
     }}>
