@@ -96,7 +96,9 @@ export default function ImageStepper() {
                 component="img"
                 sx={{
                   width: "100%",
-                  height:"1080px"
+                  height:{
+                    md: "1080px",
+                  }
                 }}
                 src={step.imgPath}
                 alt={step.label}
