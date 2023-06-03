@@ -1,6 +1,11 @@
-import { EmailRounded, PhoneInTalkRounded } from "@mui/icons-material";
+import {
+  EmailRounded,
+  Instagram,
+  PhoneInTalkRounded,
+} from "@mui/icons-material";
 import { Box, Divider, Grid, Stack, Typography } from "@mui/material";
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -8,7 +13,7 @@ export default function Footer() {
       <Grid
         container
         spacing={{ xs: 2, md: 3 }}
-        columns={{ xs: 4, sm: 8, md: 12 }}
+        columns={{ xs: 2, sm: 4, md: 12 }}
         p={"20px"}
         bgcolor={"#E57C23"}
       >
@@ -22,7 +27,8 @@ export default function Footer() {
             Our Location
           </Typography>
           <Typography color={"#fff"} fontWeight={"bold"} variant="body1">
-            6F79+RV6, Muktanand Parisar, Dhamnod, Madhya Pradesh 454552
+            Street No. 7, Muktanand Parisar nearby Garden, Dhamnod, Madhya
+            Pradesh 454552
           </Typography>
         </Grid>
         <Grid item xs={2} sm={4} md={4}>
@@ -46,7 +52,22 @@ export default function Footer() {
               variant="body1"
               ml={1}
             >
-              +91-9876543210
+              +91-9977442669
+            </Typography>
+          </Stack>
+          <Stack direction={"row"}>
+            <PhoneInTalkRounded
+              sx={{
+                color: "#fff",
+              }}
+            />
+            <Typography
+              color={"#fff"}
+              fontWeight={"bold"}
+              variant="body1"
+              ml={1}
+            >
+              +91-7049364327
             </Typography>
           </Stack>
           <Stack direction={"row"} mt={1}>
@@ -61,11 +82,11 @@ export default function Footer() {
               variant="body1"
               ml={1}
             >
-              principal@gmail.com
+              kidscornerplayway@gmail.com
             </Typography>
           </Stack>
         </Grid>
-        {/* <Grid item xs={2} sm={4} md={4}>
+        <Grid item xs={2} sm={4} md={4}>
           <Typography
             color={"#fff"}
             variant="h5"
@@ -74,7 +95,15 @@ export default function Footer() {
           >
             Follow Us on
           </Typography>
-        </Grid> */}
+          <Link target="_blank" to="https://www.instagram.com/kidscorner450/?igshid=ZDc4ODBmNjlmNQ%3D%3D">
+            <Instagram
+              sx={{
+                color: "white",
+                fontWeight: "bold",
+              }}
+            />
+          </Link>
+        </Grid>
       </Grid>
       <Divider
         sx={{

@@ -1,8 +1,9 @@
-import { Box, Stack, Typography } from "@mui/material";
+import { Box, Divider, Stack, Typography } from "@mui/material";
 import React from "react";
 import NavBar from "./Navbar";
 import Footer from "./Footer";
 import kc03 from "../assets/galleryImage/kc13.png";
+import kcStaff from "../assets/kc-staff.jpeg";
 
 export default function AboutUs() {
   return (
@@ -18,7 +19,10 @@ export default function AboutUs() {
         >
           Know about Kids Corner School
         </Typography>
-        <Stack direction={"row"} spacing={2}>
+        <Stack direction={"row"} spacing={{
+           xs: 0,
+           md: 2,
+        }}>
           <Stack
             direction={"column"}
             spacing={2}
@@ -113,13 +117,36 @@ export default function AboutUs() {
         </Typography>
         <br />
         <br />
+        <Box
+            component="img"
+            src={kcStaff}
+            alt={"Kids Corner"}
+            width={"40%"}
+            height={"550px"}
+            sx={{
+              mb:4,
+              width: {
+                xs: "100%",
+                md: "100%",
+              },
+              height: {
+                xs: "100%",
+                md: "100%",
+              },
+            }}
+          />
         <Stack direction={"row"} justifyContent={"space-between"} spacing={6}>
           <Stack direction={"column"} spacing={2}>
             <Typography
               fontSize={18}
               variant="h6"
               fontWeight={"bold"}
-              color={"#0C134F"}
+              color={"white"}
+              sx={{
+                backgroundColor:"#0C134F",
+                borderRadius:"5px",
+                padding:1
+              }}
             >
               Message From Director
             </Typography>
@@ -130,12 +157,18 @@ export default function AboutUs() {
               stage of life.
             </Typography>
           </Stack>
+          <Divider orientation="vertical" flexItem/>
           <Stack direction={"column"} spacing={2}>
             <Typography
               fontSize={18}
               variant="h6"
               fontWeight={"bold"}
-              color={"#0C134F"}
+              color={"white"}
+              sx={{
+                backgroundColor:"#0C134F",
+                borderRadius:"5px",
+                padding:1
+              }}
             >
               Message From Principal
             </Typography>
