@@ -12,23 +12,23 @@ import kcAnnual4 from "../assets/galleryImage/Annual Function/4.jpeg";
 import kcAnnual5 from "../assets/galleryImage/Annual Function/5.jpeg";
 import kcAnnual6 from "../assets/galleryImage/Annual Function/6.jpeg";
 import kcAnnual7 from "../assets/galleryImage/Annual Function/7.jpeg";
-import kcAnnual8 from "../assets/galleryImage/Annual Function/8.jpeg";
+import kcAnnual8 from "../assets/galleryImage/Annual Function/8.jpg";
 import kcBirthday0 from "../assets/galleryImage/Birthday Celedration/0.jpeg";
-import kcCertificate0 from "../assets/galleryImage/Certificate/0.jpeg";
-import kcCertificate1 from "../assets/galleryImage/Certificate/1.jpeg";
-import kcExhibition0 from "../assets/galleryImage/Exibition/0.jpeg";
-import kcExhibition1 from "../assets/galleryImage/Exibition/1.jpeg";
-import kcFelicitation0 from "../assets/galleryImage/felicitation ceremonies/0.jpeg";
-import kcFelicitation1 from "../assets/galleryImage/felicitation ceremonies/1.jpeg";
-import kcGarba0 from "../assets/galleryImage/Garba/0.jpeg";
-import kcGarba1 from "../assets/galleryImage/Garba/1.jpeg";
-import kcGarba2 from "../assets/galleryImage/Garba/2.jpeg";
+import kcCertificate0 from "../assets/galleryImage/Certificate/0.jpg";
+import kcCertificate1 from "../assets/galleryImage/Certificate/1.jpg";
+import kcExhibition0 from "../assets/galleryImage/Exibition/0.jpg";
+import kcExhibition1 from "../assets/galleryImage/Exibition/1.jpg";
+import kcFelicitation0 from "../assets/galleryImage/felicitation ceremonies/0.jpg";
+import kcFelicitation1 from "../assets/galleryImage/felicitation ceremonies/1.jpg";
+import kcGarba0 from "../assets/galleryImage/Garba/0.jpg";
+import kcGarba1 from "../assets/galleryImage/Garba/1.jpg";
+import kcGarba2 from "../assets/galleryImage/Garba/2.jpg";
 import kcGreenDay0 from "../assets/galleryImage/Green Day/0.jpeg";
 import kcGreenDay1 from "../assets/galleryImage/Green Day/1.jpeg";
 import kcGreenDay2 from "../assets/galleryImage/Green Day/2.jpeg";
 import kcHoli0 from "../assets/galleryImage/Holi/0.png";
 import kcHoli1 from "../assets/galleryImage/Holi/1.png";
-import kcHoli2 from "../assets/galleryImage/Holi/2.jpeg";
+import kcHoli2 from "../assets/galleryImage/Holi/2.jpg";
 import kcHoli3 from "../assets/galleryImage/Holi/3.jpeg";
 import kcIndependenceDay0 from "../assets/galleryImage/IndependentDays/0.png";
 import kcIndependenceDay1 from "../assets/galleryImage/IndependentDays/1.jpeg";
@@ -39,28 +39,29 @@ import kcJungleDay1 from "../assets/galleryImage/JungleDay/1.jpeg";
 import kcKawad0 from "../assets/galleryImage/Kawad/0.png";
 import kcKawad1 from "../assets/galleryImage/Kawad/1.png";
 import kcKawad2 from "../assets/galleryImage/Kawad/2.jpeg";
-import kcPaperDesign0 from "../assets/galleryImage/PeparDesign/0.jpeg";
-import kcPaperDesign1 from "../assets/galleryImage/PeparDesign/1.jpeg";
-import kcPaperDesign2 from "../assets/galleryImage/PeparDesign/2.jpeg";
+import kcPaperDesign0 from "../assets/galleryImage/PeparDesign/0.jpg";
+import kcPaperDesign1 from "../assets/galleryImage/PeparDesign/1.jpg";
+import kcPaperDesign2 from "../assets/galleryImage/PeparDesign/2.jpg";
 import kcPaperDesign3 from "../assets/galleryImage/PeparDesign/3.jpeg";
-import kcPaperDesign4 from "../assets/galleryImage/PeparDesign/4.jpeg";
+import kcPaperDesign4 from "../assets/galleryImage/PeparDesign/4.jpg";
 import kcPoolDay0 from "../assets/galleryImage/PoolDay/0.png";
 import kcPoolDay1 from "../assets/galleryImage/PoolDay/1.jpeg";
 import kcPoolDay2 from "../assets/galleryImage/PoolDay/2.jpeg";
 import kcRainDay0 from "../assets/galleryImage/Rain Day/0.jpeg";
-import kcRainDay1 from "../assets/galleryImage/Rain Day/1.jpeg";
+import kcRainDay1 from "../assets/galleryImage/Rain Day/1.jpg";
+import kcWinterDay0 from "../assets/galleryImage/WinterDay/0.jpeg";
+import kcWinterDay1 from "../assets/galleryImage/WinterDay/1.jpeg";
+import kcWinterDay2 from "../assets/galleryImage/WinterDay/2.jpg";
 import kcSchool0 from "../assets/galleryImage/School/0.png";
 import kcSchool1 from "../assets/galleryImage/School/1.png";
 import kcSchool2 from "../assets/galleryImage/School/2.png";
-import kcSchool3 from "../assets/galleryImage/School/3.jpeg";
+// import kcSchool3 from "../assets/galleryImage/School/3.jpeg";
 import kcTemple0 from "../assets/galleryImage/TourVisit BawanGaja or IskonTemple/0.png";
 import kcTemple1 from "../assets/galleryImage/TourVisit BawanGaja or IskonTemple/1.jpeg";
 import kcTemple2 from "../assets/galleryImage/TourVisit BawanGaja or IskonTemple/2.jpeg";
 import kcTemple3 from "../assets/galleryImage/TourVisit BawanGaja or IskonTemple/3.jpeg";
 import kcTemple4 from "../assets/galleryImage/TourVisit BawanGaja or IskonTemple/4.jpeg";
-import kcWinterDay0 from "../assets/galleryImage/WinterDay/0.jpeg";
-import kcWinterDay1 from "../assets/galleryImage/WinterDay/1.jpeg";
-import kcWinterDay2 from "../assets/galleryImage/WinterDay/2.jpeg";
+
 import kcYoga0 from "../assets/galleryImage/Yoga And Surya Namaskar/0.jpeg";
 import kcYoga1 from "../assets/galleryImage/Yoga And Surya Namaskar/1.jpeg";
 import kcYoga2 from "../assets/galleryImage/Yoga And Surya Namaskar/2.jpeg";
@@ -304,32 +305,32 @@ export default function Gallery() {
       img: kcSchool2,
       title: "Kids Corner",
     },
-    {
-      img: kcSchool3,
-      title: "Kids Corner",
-    },
+    // {
+    //   img: kcSchool3,
+    //   title: "Kids Corner",
+    // },
   ];
 
   const imageListTemple = [
     {
       img: kcTemple0,
-      title: "Temple Visit",
+      title: "Tour Visit",
     },
     {
       img: kcTemple1,
-      title: "Temple Visit",
+      title: "Tour Visit",
     },
     {
       img: kcTemple2,
-      title: "Temple Visit",
+      title: "Tour Visit",
     },
     {
       img: kcTemple3,
-      title: "Temple Visit",
+      title: "Tour Visit",
     },
     {
       img: kcTemple4,
-      title: "Temple Visit",
+      title: "Tour Visit",
     },
   ];
 
@@ -403,87 +404,7 @@ export default function Gallery() {
             />
           </ImageListItem>
         ))}
-        {imageListRainDay.map((item) => (
-          <ImageListItem key={item.img}>
-            <img
-              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-              src={item.img}
-              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-              srcSet={item.img}
-              alt={item.title}
-              loading="lazy"
-            />
-            <ImageListItemBar
-              title={
-                <Typography
-                  ml={0.5}
-                  color={"#E57C23"}
-                  fontWeight={"bold"}
-                  fontFamily={"-apple-system"}
-                  fontSize={20}
-                >
-                  {item.title}
-                </Typography>
-              }
-              // subtitle={<span>by: {"item.author"}</span>}
-              position="below"
-            />
-          </ImageListItem>
-        ))}
-        {imageListKawad.map((item) => (
-          <ImageListItem key={item.img}>
-            <img
-              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-              src={item.img}
-              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-              srcSet={item.img}
-              alt={item.title}
-              loading="lazy"
-            />
-            <ImageListItemBar
-              title={
-                <Typography
-                  ml={0.5}
-                  color={"#E57C23"}
-                  fontWeight={"bold"}
-                  fontFamily={"-apple-system"}
-                  fontSize={20}
-                >
-                  {item.title}
-                </Typography>
-              }
-              // subtitle={<span>by: {"item.author"}</span>}
-              position="below"
-            />
-          </ImageListItem>
-        ))}
-        {imageListIndependenceDay.map((item) => (
-          <ImageListItem key={item.img}>
-            <img
-              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-              src={item.img}
-              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-              srcSet={item.img}
-              alt={item.title}
-              loading="lazy"
-            />
-            <ImageListItemBar
-              title={
-                <Typography
-                  ml={0.5}
-                  color={"#E57C23"}
-                  fontWeight={"bold"}
-                  fontFamily={"-apple-system"}
-                  fontSize={20}
-                >
-                  {item.title}
-                </Typography>
-              }
-              // subtitle={<span>by: {"item.author"}</span>}
-              position="below"
-            />
-          </ImageListItem>
-        ))}
+        
         {imageListJanmashtmi.map((item) => (
           <ImageListItem key={item.img}>
             <img
@@ -511,276 +432,7 @@ export default function Gallery() {
             />
           </ImageListItem>
         ))}
-        {imageListTemple.map((item) => (
-          <ImageListItem key={item.img}>
-            <img
-              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-              src={item.img}
-              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-              srcSet={item.img}
-              alt={item.title}
-              loading="lazy"
-            />
-            <ImageListItemBar
-              title={
-                <Typography
-                  ml={0.5}
-                  color={"#E57C23"}
-                  fontWeight={"bold"}
-                  fontFamily={"-apple-system"}
-                  fontSize={20}
-                >
-                  {item.title}
-                </Typography>
-              }
-              // subtitle={<span>by: {"item.author"}</span>}
-              position="below"
-            />
-          </ImageListItem>
-        ))}
-        {imageListBirthdayCeleberation.map((item) => (
-          <ImageListItem key={item.img}>
-            <img
-              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-              src={item.img}
-              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-              srcSet={item.img}
-              alt={item.title}
-              loading="lazy"
-            />
-            <ImageListItemBar
-              title={
-                <Typography
-                  ml={0.5}
-                  color={"#E57C23"}
-                  fontWeight={"bold"}
-                  fontFamily={"-apple-system"}
-                  fontSize={20}
-                >
-                  {item.title}
-                </Typography>
-              }
-              // subtitle={<span>by: {"item.author"}</span>}
-              position="below"
-            />
-          </ImageListItem>
-        ))}
-        {imageListJungleDay.map((item) => (
-          <ImageListItem key={item.img}>
-            <img
-              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-              src={item.img}
-              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-              srcSet={item.img}
-              alt={item.title}
-              loading="lazy"
-            />
-            <ImageListItemBar
-              title={
-                <Typography
-                  ml={0.5}
-                  color={"#E57C23"}
-                  fontWeight={"bold"}
-                  fontFamily={"-apple-system"}
-                  fontSize={20}
-                >
-                  {item.title}
-                </Typography>
-              }
-              // subtitle={<span>by: {"item.author"}</span>}
-              position="below"
-            />
-          </ImageListItem>
-        ))}
-        {imageListYoga.map((item) => (
-          <ImageListItem key={item.img}>
-            <img
-              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-              src={item.img}
-              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-              srcSet={item.img}
-              alt={item.title}
-              loading="lazy"
-            />
-            <ImageListItemBar
-              title={
-                <Typography
-                  ml={0.5}
-                  color={"#E57C23"}
-                  fontWeight={"bold"}
-                  fontFamily={"-apple-system"}
-                  fontSize={20}
-                >
-                  {item.title}
-                </Typography>
-              }
-              // subtitle={<span>by: {"item.author"}</span>}
-              position="below"
-            />
-          </ImageListItem>
-        ))}
-        {imageListGarba.map((item) => (
-          <ImageListItem key={item.img}>
-            <img
-              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-              src={item.img}
-              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-              srcSet={item.img}
-              alt={item.title}
-              loading="lazy"
-            />
-            <ImageListItemBar
-              title={
-                <Typography
-                  ml={0.5}
-                  color={"#E57C23"}
-                  fontWeight={"bold"}
-                  fontFamily={"-apple-system"}
-                  fontSize={20}
-                >
-                  {item.title}
-                </Typography>
-              }
-              // subtitle={<span>by: {"item.author"}</span>}
-              position="below"
-            />
-          </ImageListItem>
-        ))}
-        {imageListCertificate.map((item) => (
-          <ImageListItem key={item.img}>
-            <img
-              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-              src={item.img}
-              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-              srcSet={item.img}
-              alt={item.title}
-              loading="lazy"
-            />
-            <ImageListItemBar
-              title={
-                <Typography
-                  ml={0.5}
-                  color={"#E57C23"}
-                  fontWeight={"bold"}
-                  fontFamily={"-apple-system"}
-                  fontSize={20}
-                >
-                  {item.title}
-                </Typography>
-              }
-              // subtitle={<span>by: {"item.author"}</span>}
-              position="below"
-            />
-          </ImageListItem>
-        ))}
-        {imageListFelicitation.map((item) => (
-          <ImageListItem key={item.img}>
-            <img
-              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-              src={item.img}
-              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-              srcSet={item.img}
-              alt={item.title}
-              loading="lazy"
-            />
-            <ImageListItemBar
-              title={
-                <Typography
-                  ml={0.5}
-                  color={"#E57C23"}
-                  fontWeight={"bold"}
-                  fontFamily={"-apple-system"}
-                  fontSize={20}
-                >
-                  {item.title}
-                </Typography>
-              }
-              // subtitle={<span>by: {"item.author"}</span>}
-              position="below"
-            />
-          </ImageListItem>
-        ))}
-        {imageListGreenDay.map((item) => (
-          <ImageListItem key={item.img}>
-            <img
-              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-              src={item.img}
-              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-              srcSet={item.img}
-              alt={item.title}
-              loading="lazy"
-            />
-            <ImageListItemBar
-              title={
-                <Typography
-                  ml={0.5}
-                  color={"#E57C23"}
-                  fontWeight={"bold"}
-                  fontFamily={"-apple-system"}
-                  fontSize={20}
-                >
-                  {item.title}
-                </Typography>
-              }
-              // subtitle={<span>by: {"item.author"}</span>}
-              position="below"
-            />
-          </ImageListItem>
-        ))}
-        {imageListWinter.map((item) => (
-          <ImageListItem key={item.img}>
-            <img
-              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-              src={item.img}
-              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-              srcSet={item.img}
-              alt={item.title}
-              loading="lazy"
-            />
-            <ImageListItemBar
-              title={
-                <Typography
-                  ml={0.5}
-                  color={"#E57C23"}
-                  fontWeight={"bold"}
-                  fontFamily={"-apple-system"}
-                  fontSize={20}
-                >
-                  {item.title}
-                </Typography>
-              }
-              // subtitle={<span>by: {"item.author"}</span>}
-              position="below"
-            />
-          </ImageListItem>
-        ))}
-        {imageListPaperDesign.map((item) => (
-          <ImageListItem key={item.img}>
-            <img
-              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-              src={item.img}
-              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-              srcSet={item.img}
-              alt={item.title}
-              loading="lazy"
-            />
-            <ImageListItemBar
-              title={
-                <Typography
-                  ml={0.5}
-                  color={"#E57C23"}
-                  fontWeight={"bold"}
-                  fontFamily={"-apple-system"}
-                  fontSize={20}
-                >
-                  {item.title}
-                </Typography>
-              }
-              // subtitle={<span>by: {"item.author"}</span>}
-              position="below"
-            />
-          </ImageListItem>
-        ))}
+        
         {imageListExhibition.map((item) => (
           <ImageListItem key={item.img}>
             <img
@@ -889,6 +541,364 @@ export default function Gallery() {
             />
           </ImageListItem>
         ))}
+        {imageListYoga.map((item) => (
+          <ImageListItem key={item.img}>
+            <img
+              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+              src={item.img}
+              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+              srcSet={item.img}
+              alt={item.title}
+              loading="lazy"
+            />
+            <ImageListItemBar
+              title={
+                <Typography
+                  ml={0.5}
+                  color={"#E57C23"}
+                  fontWeight={"bold"}
+                  fontFamily={"-apple-system"}
+                  fontSize={20}
+                >
+                  {item.title}
+                </Typography>
+              }
+              // subtitle={<span>by: {"item.author"}</span>}
+              position="below"
+            />
+          </ImageListItem>
+        ))}
+        {imageListGarba.map((item) => (
+          <ImageListItem key={item.img}>
+            <img
+              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+              src={item.img}
+              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+              srcSet={item.img}
+              alt={item.title}
+              loading="lazy"
+            />
+            <ImageListItemBar
+              title={
+                <Typography
+                  ml={0.5}
+                  color={"#E57C23"}
+                  fontWeight={"bold"}
+                  fontFamily={"-apple-system"}
+                  fontSize={20}
+                >
+                  {item.title}
+                </Typography>
+              }
+              // subtitle={<span>by: {"item.author"}</span>}
+              position="below"
+            />
+          </ImageListItem>
+        ))}
+        {imageListRainDay.map((item) => (
+          <ImageListItem key={item.img}>
+            <img
+              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+              src={item.img}
+              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+              srcSet={item.img}
+              alt={item.title}
+              loading="lazy"
+            />
+            <ImageListItemBar
+              title={
+                <Typography
+                  ml={0.5}
+                  color={"#E57C23"}
+                  fontWeight={"bold"}
+                  fontFamily={"-apple-system"}
+                  fontSize={20}
+                >
+                  {item.title}
+                </Typography>
+              }
+              // subtitle={<span>by: {"item.author"}</span>}
+              position="below"
+            />
+          </ImageListItem>
+        ))}
+
+        {imageListWinter.map((item) => (
+          <ImageListItem key={item.img}>
+            <img
+              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+              src={item.img}
+              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+              srcSet={item.img}
+              alt={item.title}
+              loading="lazy"
+            />
+            <ImageListItemBar
+              title={
+                <Typography
+                  ml={0.5}
+                  color={"#E57C23"}
+                  fontWeight={"bold"}
+                  fontFamily={"-apple-system"}
+                  fontSize={20}
+                >
+                  {item.title}
+                </Typography>
+              }
+              // subtitle={<span>by: {"item.author"}</span>}
+              position="below"
+            />
+          </ImageListItem>
+        ))}
+        {imageListJungleDay.map((item) => (
+          <ImageListItem key={item.img}>
+            <img
+              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+              src={item.img}
+              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+              srcSet={item.img}
+              alt={item.title}
+              loading="lazy"
+            />
+            <ImageListItemBar
+              title={
+                <Typography
+                  ml={0.5}
+                  color={"#E57C23"}
+                  fontWeight={"bold"}
+                  fontFamily={"-apple-system"}
+                  fontSize={20}
+                >
+                  {item.title}
+                </Typography>
+              }
+              // subtitle={<span>by: {"item.author"}</span>}
+              position="below"
+            />
+          </ImageListItem>
+        ))}
+        {imageListIndependenceDay.map((item) => (
+          <ImageListItem key={item.img}>
+            <img
+              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+              src={item.img}
+              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+              srcSet={item.img}
+              alt={item.title}
+              loading="lazy"
+            />
+            <ImageListItemBar
+              title={
+                <Typography
+                  ml={0.5}
+                  color={"#E57C23"}
+                  fontWeight={"bold"}
+                  fontFamily={"-apple-system"}
+                  fontSize={20}
+                >
+                  {item.title}
+                </Typography>
+              }
+              // subtitle={<span>by: {"item.author"}</span>}
+              position="below"
+            />
+          </ImageListItem>
+        ))}
+        {imageListKawad.map((item) => (
+          <ImageListItem key={item.img}>
+            <img
+              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+              src={item.img}
+              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+              srcSet={item.img}
+              alt={item.title}
+              loading="lazy"
+            />
+            <ImageListItemBar
+              title={
+                <Typography
+                  ml={0.5}
+                  color={"#E57C23"}
+                  fontWeight={"bold"}
+                  fontFamily={"-apple-system"}
+                  fontSize={20}
+                >
+                  {item.title}
+                </Typography>
+              }
+              // subtitle={<span>by: {"item.author"}</span>}
+              position="below"
+            />
+          </ImageListItem>
+        ))}
+        
+        
+        {imageListTemple.map((item) => (
+          <ImageListItem key={item.img}>
+            <img
+              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+              src={item.img}
+              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+              srcSet={item.img}
+              alt={item.title}
+              loading="lazy"
+            />
+            <ImageListItemBar
+              title={
+                <Typography
+                  ml={0.5}
+                  color={"#E57C23"}
+                  fontWeight={"bold"}
+                  fontFamily={"-apple-system"}
+                  fontSize={20}
+                >
+                  {item.title}
+                </Typography>
+              }
+              // subtitle={<span>by: {"item.author"}</span>}
+              position="below"
+            />
+          </ImageListItem>
+        ))}
+        {imageListBirthdayCeleberation.map((item) => (
+          <ImageListItem key={item.img}>
+            <img
+              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+              src={item.img}
+              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+              srcSet={item.img}
+              alt={item.title}
+              loading="lazy"
+            />
+            <ImageListItemBar
+              title={
+                <Typography
+                  ml={0.5}
+                  color={"#E57C23"}
+                  fontWeight={"bold"}
+                  fontFamily={"-apple-system"}
+                  fontSize={20}
+                >
+                  {item.title}
+                </Typography>
+              }
+              // subtitle={<span>by: {"item.author"}</span>}
+              position="below"
+            />
+          </ImageListItem>
+        ))}
+       
+        
+        {imageListCertificate.map((item) => (
+          <ImageListItem key={item.img}>
+            <img
+              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+              src={item.img}
+              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+              srcSet={item.img}
+              alt={item.title}
+              loading="lazy"
+            />
+            <ImageListItemBar
+              title={
+                <Typography
+                  ml={0.5}
+                  color={"#E57C23"}
+                  fontWeight={"bold"}
+                  fontFamily={"-apple-system"}
+                  fontSize={20}
+                >
+                  {item.title}
+                </Typography>
+              }
+              // subtitle={<span>by: {"item.author"}</span>}
+              position="below"
+            />
+          </ImageListItem>
+        ))}
+        {imageListFelicitation.map((item) => (
+          <ImageListItem key={item.img}>
+            <img
+              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+              src={item.img}
+              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+              srcSet={item.img}
+              alt={item.title}
+              loading="lazy"
+            />
+            <ImageListItemBar
+              title={
+                <Typography
+                  ml={0.5}
+                  color={"#E57C23"}
+                  fontWeight={"bold"}
+                  fontFamily={"-apple-system"}
+                  fontSize={20}
+                >
+                  {item.title}
+                </Typography>
+              }
+              // subtitle={<span>by: {"item.author"}</span>}
+              position="below"
+            />
+          </ImageListItem>
+        ))}
+        {imageListGreenDay.map((item) => (
+          <ImageListItem key={item.img}>
+            <img
+              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+              src={item.img}
+              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+              srcSet={item.img}
+              alt={item.title}
+              loading="lazy"
+            />
+            <ImageListItemBar
+              title={
+                <Typography
+                  ml={0.5}
+                  color={"#E57C23"}
+                  fontWeight={"bold"}
+                  fontFamily={"-apple-system"}
+                  fontSize={20}
+                >
+                  {item.title}
+                </Typography>
+              }
+              // subtitle={<span>by: {"item.author"}</span>}
+              position="below"
+            />
+          </ImageListItem>
+        ))}
+        
+        {imageListPaperDesign.map((item) => (
+          <ImageListItem key={item.img}>
+            <img
+              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+              src={item.img}
+              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+              srcSet={item.img}
+              alt={item.title}
+              loading="lazy"
+            />
+            <ImageListItemBar
+              title={
+                <Typography
+                  ml={0.5}
+                  color={"#E57C23"}
+                  fontWeight={"bold"}
+                  fontFamily={"-apple-system"}
+                  fontSize={20}
+                >
+                  {item.title}
+                </Typography>
+              }
+              // subtitle={<span>by: {"item.author"}</span>}
+              position="below"
+            />
+          </ImageListItem>
+        ))}
+        
       </ImageList>
       <Footer />
     </Box>
