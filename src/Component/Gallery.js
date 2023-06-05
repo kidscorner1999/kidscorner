@@ -227,15 +227,15 @@ export default function Gallery() {
   const imageListKawad = [
     {
       img: kcKawad0,
-      title: "Kawad",
+      title: "Kawad Yatra",
     },
     {
       img: kcKawad1,
-      title: "Kawad",
+      title: "Kawad Yatra",
     },
     {
       img: kcKawad2,
-      title: "Kawad",
+      title: "Kawad Yatra",
     },
   ];
 
@@ -246,21 +246,21 @@ export default function Gallery() {
     },
     {
       img: kcPaperDesign1,
-      title: "Kawad",
+      title: "Paper Design",
     },
     {
       img: kcPaperDesign2,
-      title: "Kawad",
+      title: "Paper Design",
     },
 
     {
       img: kcPaperDesign3,
-      title: "Kawad",
+      title: "Paper Design",
     },
 
     {
       img: kcPaperDesign4,
-      title: "Kawad",
+      title: "Paper Design",
     },
   ];
 
@@ -376,33 +376,6 @@ export default function Gallery() {
           mb: 4,
         }}
       >
-        {/* {imageList.map((item) => (
-          <ImageListItem key={item.img}>
-            <img
-              // src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-              src={item.img}
-              // srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-              srcSet={item.img}
-              alt={item.title}
-              loading="lazy"
-            />
-            <ImageListItemBar
-              title={
-                <Typography
-                  ml={0.5}
-                  color={"#E57C23"}
-                  fontWeight={"bold"}
-                  fontFamily={"-apple-system"}
-                  fontSize={20}
-                >
-                  {item.title}
-                </Typography>
-              }
-              // subtitle={<span>by: {"item.author"}</span>}
-              position="below"
-            />
-          </ImageListItem>
-        ))} */}
         {imageListSchool.map((item) => (
           <ImageListItem key={item.img}>
             <img
